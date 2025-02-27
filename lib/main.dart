@@ -1,5 +1,5 @@
 //Venkata Saileenath Reddy Jampala
-//Foungnigue Hassan
+//Foungnigue Souleymane Hassan Coulibaly
 import 'package:flutter/material.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 
