@@ -1,4 +1,5 @@
-\\Venkata Saileenath Reddy Jampala and Foungnigue Hassan 
+//Venkata Saileenath Reddy Jampala
+//Foungnigue Hassan
 import 'package:flutter/material.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 
@@ -29,7 +30,8 @@ class MyAppState extends State<MyApp> {
             title: const Text('Multi-Fading Text Animation'),
             actions: [
               IconButton(
-                icon: Icon(_isDarkMode ? Icons.brightness_7 : Icons.brightness_3),
+                icon:
+                    Icon(_isDarkMode ? Icons.brightness_7 : Icons.brightness_3),
                 onPressed: () {
                   setState(() {
                     _isDarkMode = !_isDarkMode;
@@ -64,12 +66,20 @@ class MyAppState extends State<MyApp> {
                 children: [
                   FadingTextAnimationPage(
                     textColor: _textColor,
-                    words: const ['Hello, Flutter!', 'Welcome to Flutter!', 'Enjoy Coding!'],
+                    words: const [
+                      'Hello, Flutter!',
+                      'Welcome to Flutter!',
+                      'Enjoy Coding!'
+                    ],
                     durationSeconds: 1,
                   ),
                   FadingTextWithFramePage(
                     textColor: _textColor,
-                    words: const ['Develop Apps!', 'UI with Flutter!', 'Dart Programming!'],
+                    words: const [
+                      'Develop Apps!',
+                      'UI with Flutter!',
+                      'Dart Programming!'
+                    ],
                     durationSeconds: 2,
                   ),
                 ],
@@ -205,8 +215,7 @@ class FadingTextWithFramePage extends StatefulWidget {
   });
 
   @override
-  FadingTextWithFramePageState createState() =>
-      FadingTextWithFramePageState();
+  FadingTextWithFramePageState createState() => FadingTextWithFramePageState();
 }
 
 class FadingTextWithFramePageState extends State<FadingTextWithFramePage> {
