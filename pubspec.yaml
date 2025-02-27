@@ -1,0 +1,28 @@
+name: fading_text_animation_example  # Ensure this matches your project folder name
+description: A Flutter app demonstrating fading text animations, day/night mode, color picker, etc.
+publish_to: "none"  # Remove this if you plan to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"  # Adjust based on your Flutter version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # ✅ Add flutter_colorpicker for the color selection feature
+  flutter_colorpicker: ^1.1.0  # Updated to the latest version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1  # ✅ Recommended for best coding practices
+
+flutter:
+  uses-material-design: true
+
+  # ✅ Include assets for local images (Ensure assets folder exists in your project)
+  assets:
+    - assets/image1.jpeg  # Add more image assets if needed
